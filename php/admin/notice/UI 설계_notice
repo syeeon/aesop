@@ -1,0 +1,28 @@
+** 테이블 설계 **
+
+인덱스    | idx        | int             | Ai, PK 
+카테고리  | cate       | varchar(15)     | nn
+제목      | ask        | varchar(100)    | nn
+내용      | answer     | text            | nn 
+작성자    | writer     | varchar(15)     | nn 
+작성일    | w_date     | date            | nn  
+조회수    | cnt        | int             | default 0
+
+//쿼리 작성
+
+create table notice(
+    idx int auto_increment primary key,
+    cate varchar(15) not null,
+    ask varchar(100) not null,
+    answer text not null,
+    writer varchar(15) not null,
+    w_date date not null,
+    cnt int default 0
+);
+
+insert into notice(cate, ask, answer, writer, w_date) values('취소교환반품', '교환 및 반품 접수 시 제품은 어디로 보내야 하나요?', 'Aesop 고객센터 070-7123-0077 로 접수 후, 아래 반송주소로 보내주세요. 반송주소 : 서울특별시 마포구 토정로 119 (상수동) 5층 노드메이슨 CS팀', 'admin', '20221124');
+insert into notice(cate, ask, answer, writer, w_date) values('쿠폰적립금', '생일 쿠폰은 언제 발행되나요?', '일주일 전에 발급되며 발급 후 15일 이내 사용 가능합니다.', 'admin', '20221124');
+insert into notice(cate, ask, answer, writer, w_date) values('배송문의', '어떤 택배사로 배송이 되나요?', 'CJ대한통운 택배로 기본 배송사로 배송되고 있습니다.', 'admin', '20221124');
+insert into notice(cate, ask, answer, writer, w_date) values('쿠폰적립금', '적립금은 쿠폰과 함께 사용 가능한가요?', '적립금은 쿠폰과 함께 중복 사용 가능하며, 쿠폰은 주문서당 1개 쿠폰만 사용 가능합니다.', 'admin', '20221124');
+insert into notice(cate, ask, answer, writer, w_date) values('쿠폰적립금', '쿠폰은 어떻게 사용하나요?', '주문/결제 페이지내의 쿠폰 사용 > 쿠폰 선택에서 보유 쿠폰 내역확인 후 사용가능한 쿠폰 선택하여 확인 버튼을 누르면 쿠폰 적용됩니다.', 'admin', '20221124');
+insert into notice(cate, ask, answer, writer, w_date) values('쿠폰적립금', '적립금은 어떻게 사용하나요?', '적립금은 구매금액이 3만원 이상일 때 현금처럼 사용이 가능합니다.', 'admin', '20221124');

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* main */
+.main{
+    min-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 147px 0 80px;
+    background:  #F2F1F0  url(../../../img/common/background.jpg) no-repeat;
+    text-align: center;
+}
+
+.box_wrop{
+    width: 1200px;
+    background-color: #fff;
+    margin: 0px auto;
+    padding: 80px 0;
+    line-height: 2;
+    text-align: center;
+    position: relative;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title p{
+    margin: 20px auto 80px;
+}
+
+.name{
+    font-family: 'Playfair Display', "Minerva-Modern", "Noto Sans KR", "Arial", "나눔고딕", "맑은 고딕", "돋움";
+}
+
+/* button */
+
+.btn_1{
+    display: block;
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+    float: left;
+    margin-right: 20px;
+}
+
+.btn_1:hover{
+    display: block;
+    height: 50px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+}
+
+.btn_2{
+    display: block;
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+    float: left;
+    margin-left: 20px;
+}
+
+.btn_2:hover{
+    display: block;
+    height: 50px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+}
+
+.btn_box{
+    margin: 30px auto 80px;
+    position: relative;
+    left: 50%;
+    transform: translate(-12%);
+}
+

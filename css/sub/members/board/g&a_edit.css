@@ -1,0 +1,132 @@
+/* main */ 
+.main{
+    min-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 149px 0 80px;
+    background:  #F2F1F0  url(../../../../img/common/background.jpg) no-repeat;
+}
+
+.content1 h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content1 p{
+    margin: 20px 0 80px;
+    text-align: center;
+}
+
+.lnb{
+    text-align: center;
+}
+
+.tit_btn{
+    width: 150px;
+    line-height: 3;
+    border: 1px solid #ddd;
+    color: #868686;
+}
+
+.tit2{
+    background: #000;
+}
+.tit2:hover{
+    color: #000
+}
+
+/* correct */
+
+.correct{
+    width: 1200px;
+    background-color: #fff;
+    margin: 80px auto;
+    padding: 80px 0;
+    position: relative;
+}
+
+.correct label{
+    display: block;
+    font-size: 25px;
+    text-align: center;
+}
+
+.pwd{
+    border: 1px solid #ddd;
+    width: 399px;
+    height: 40px;
+    display: block;
+    margin: 30px auto 0;
+    
+}
+
+/* form */
+.title_pwd{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.text_wrap{
+    position: relative;
+    display: inline-block;
+    left:50%;
+    transform : translate(-50%, -50%);
+}
+.err_txt{
+    font-size: 14px;
+    color: #143259;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+}
+
+/* content2 */
+
+.btn_1{
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+    float: left;
+    margin-right: 20px;
+}
+
+.btn_1:hover{
+    display: block;
+    height: 50px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+}
+
+.btn_2{
+    display: block;
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+    float: left;
+    margin-right: 20px;
+}
+
+.btn_2:hover{
+    display: block;
+    height: 50px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+}
+
+.btn_box{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}

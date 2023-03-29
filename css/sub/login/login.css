@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* content */
+
+.main{
+    min-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 147px 0 80px;
+    background:  #F2F1F0  url(../../../img/common/background.jpg) no-repeat;
+}
+.content1 h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content1 p{
+    margin: 20px 0 80px;
+    text-align: center;
+}
+
+.name{
+    font-family: 'Playfair Display', "Minerva-Modern", "Noto Sans KR", "Arial", "나눔고딕", "맑은 고딕", "돋움";
+}
+
+
+/* box wrop */
+
+.box_wrap{
+    width: 1200px;
+    margin: 80px auto;
+    border: 1px solid #d2d1ce;
+    background-color: #fff;
+    display: flex;
+}
+
+.content{
+    margin: 0 auto;
+}
+
+.content2{
+    width: 600px;
+    padding:50px;
+}
+
+.content_line{
+    border-left: 1px dashed #d2d1ce;
+}
+
+.content3{
+    width: 600px;
+    margin: auto;
+    padding:50px;
+}
+.title{
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.form1_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form1_box input{
+    width: 250px;
+    height: 40px;
+    border: 1px solid #d2d1ce;
+    margin-bottom: 10px;
+}
+
+.chk_box1 input{
+    margin-right: 5px;
+}
+.err_txt{
+    font-size: 14px;
+    color: #143259;
+}
+
+.btn_1{
+    display: block;
+    width: 200px;
+    height: 90px;
+    line-height: 78px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+}
+
+.btn_1:hover{
+    display: block;
+    height: 90px;
+    line-height: 78px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+}
+
+.form2_box input{
+    width: 250px;
+    height: 40px;
+    border: 1px solid #d2d1ce;
+    margin-bottom: 10px;
+}
+
+.btn_2{
+    display: block;
+    width: 200px;
+    height: 90px;
+    line-height: 78px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+}
+
+.btn_2:hover{
+    display: block;
+    height: 90px;
+    line-height: 78px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+}
+
+.outside_login{
+    width: 163px;
+    height: 40px;  
+}
+
+.outside_wrap{
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around ;
+}
+
+.txt{
+    font-size: 18px;
+    display: block;
+}
+
+.txt_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt_wrap2{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.sub_txt{
+    font-size: 14px;
+}
+
+.btn{
+    display: block;
+    height: 50px;
+    width: 200px;
+}
+
+.form2_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content3 .txt{
+    margin-top: 50px;
+} 

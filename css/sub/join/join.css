@@ -1,0 +1,263 @@
+/* content */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+#main{
+    min-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 80px 0;
+    background: #F2F1F0 url(../../../img/common/background.jpg) no-repeat;
+    
+}
+
+.join_box{
+    width: 1200px;
+    margin: 80px auto;
+    padding: 80px 0;
+    background-color: #fff;
+    border: 1px solid #ebeae3;
+} 
+
+
+/* content1 */
+
+.content1 h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content1 p{
+    margin: 20px 0 80px;
+    text-align: center;
+}
+
+
+/* form */
+.chk_btn{
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+    background: #627581;
+    border: 1px solid #627581;
+    color: #fff;
+    font-size: 14px;
+    line-height: 39px;
+}
+
+.chk_btn:hover{
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #627581;
+    color: #627581;
+    font-size: 14px;
+    line-height: 39px;
+}
+
+.err_txt{
+    font-size: 14px;
+    color: #143259;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+}
+
+.err2_txt{
+    font-size: 14px;
+    color: #143259;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    transform: translateY(100%);
+}
+
+.err_apply{
+    font-size: 14px;
+    color: #143259;
+    margin-left: 50px;
+}
+
+.err_pscode{
+    font-size: 14px;
+    color: #143259;
+    margin-left: 138px;
+    display: block;
+}
+
+.name{
+    font-family: 'Playfair Display', "Minerva-Modern", "Noto Sans KR", "Arial", "나눔고딕", "맑은 고딕", "돋움";
+}
+
+
+.texbox_1, .texbox_2, .texbox_3{
+    padding:10px
+}
+
+.c_title{
+    display: inline-block;
+    width: 130px;
+}
+
+.text_wrap{
+    display: inline-block;
+    position: relative;
+}
+
+.txt_box{
+    height: 40px;
+    width: 300px;
+} 
+
+.short_txt_box{
+    height: 40px;
+    width: 100px;
+} 
+
+.exp{
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    transform: translateY(100%);
+}
+
+
+
+/* content2 */
+
+.content2 .title{
+    margin: 60px;
+    font-size: 20px;
+}
+
+.join_box input{
+    border: 1px solid #ddd;
+}
+
+
+.content2 div{
+    margin-top: 44px;
+    margin-left: 60px;
+}
+
+
+
+
+/* agree */
+
+.check_title{
+
+    margin-left: 50px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.content3 .title1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #735646;
+    margin-bottom: 40px;
+    margin-top:60px;
+}
+
+.box_wrap{
+    margin-bottom: 40px;
+}
+
+.check_title{
+    position: relative;
+}
+
+/* .texbox_1 p, strong , .texbox_2 p, span , .texbox_3 p {
+    font-size: 13px;
+} */
+
+.texbox_1{
+    margin: auto;
+    width: 1100px;
+    height: 100px;
+    overflow: scroll;
+    border:1px solid #ddd;
+    background-color: #fff;
+    line-height: 2;
+}
+
+.texbox_2{
+    margin: auto;
+    width: 1100px;
+    height: 100px;
+    overflow: scroll;
+    border:1px solid #ddd;
+    background-color: #fff;
+    line-height: 2;
+}
+
+.texbox_3{
+    margin: auto;
+    width: 1100px;
+    height: 100px;
+    overflow: scroll;
+    border:1px solid #ddd;
+    background-color: #fff;
+    line-height: 2;
+}
+
+.normal,.check_all{
+    margin-right: 10px;
+}
+
+
+/* button */
+
+
+.accept{
+    display: block;
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+    float: left;
+    margin-right: 20px;
+}
+
+.accept:hover{
+    display: block;
+    height: 50px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+}
+
+.cancel{
+    display: block;
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+    float: left;
+    margin-left: 20px;
+}
+
+.cancel:hover{
+    display: block;
+    height: 50px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+}
+
+.button_wrop{
+    margin-top: 60px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: inline-block;
+}

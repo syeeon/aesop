@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+.name{
+    font-family: 'Playfair Display', "Minerva-Modern", "Noto Sans KR", "Arial", "나눔고딕", "맑은 고딕", "돋움";
+}
+
+.main{
+    min-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 149px 0 80px;
+    background:  #F2F1F0  url(../../../img/common/background.jpg) no-repeat;
+}
+
+.cart, .cart_box{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.cart h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cart p{
+    margin: 20px 0 80px;
+    text-align: center;
+}
+
+.cartbox_wrap{
+    width: 1200px;
+    background: #fff;
+    padding: 40px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cart_title{
+    margin-left:80px;
+    font-size: 30px;
+}
+
+.cart_list, .cart_txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.return{
+    font-size: 20px;
+    display: block;
+    padding: 20px;
+    text-decoration: underline;
+    text-underline-position:under; 
+    text-align: center;     
+}
+
+.cart_box{
+    width: 1000px;
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.img_box{
+    width: 100px;
+    height: 100px;
+    background: #735f54;
+    margin-right: 20px;
+}
+
+.list{
+    margin-right: 50px;
+    line-height: 100px;
+}
+
+.up_down{
+    width: 40px;
+    text-align: center;
+}
+
+
+.price{
+    display: block;
+    margin-right: 40px;
+    line-height: 2;
+    text-align: right;
+    width: 300px;
+    position: relative;
+    left: 760px;
+    margin-top: 30px;
+}
+
+
+.price span{
+    display: flex;
+    justify-content: space-between;
+}
+
+.del{
+    margin-left: 10px;
+    text-decoration: underline;
+    background-color: #fff;
+    color:  #A9A9A9;
+}
+
+
+
+
+
+/* user information*/
+
+.c_title{
+    display: inline-block;
+    width: 130px;
+}
+
+.txt_box{
+    width: 200px;
+    height: 40px;
+} 
+
+.title{
+    padding: 60px 0 30px 60px;
+    font-size: 20px;
+}
+
+.input_box input, .pay_wrap input {
+    border: 1px solid #ddd;
+}
+
+.input_box{
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+.pay{
+    padding-top: 10px;
+}
+
+.phone{
+    display: inline-block;
+}
+
+.service_wrap{
+    margin-top: 60px;
+}
+
+.pay_box label{
+    margin-right: 10px;
+}
+
+.chk_btn{
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+    background: #627581;
+    border: 1px solid #627581;
+    color: #fff;
+    font-size: 14px;
+}
+
+.chk_btn:hover{
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #627581;
+    color: #627581;
+    font-size: 14px;
+}
+
+
+.text_wrap{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.err_txt{
+    font-size: 14px;
+    color: #143259;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+}
+
+.last_chk{
+    display: block;
+    margin: 60px 40px 0px 0px;
+    line-height: 2;
+    text-align: right;
+    width: 300px;
+    position: relative;
+    left: 780px;
+    
+}
+
+.last_chk span{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    display: block;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+    float: right;
+    margin-bottom: 30px;
+
+}
+
+.btn:hover{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+}

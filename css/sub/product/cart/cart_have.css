@@ -1,0 +1,128 @@
+.main{
+    min-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 149px 0 80px;
+    background:  #F2F1F0  url(../../../../img/common/background.jpg) no-repeat;
+}
+
+.cart, .cart_box{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.cart h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cart p{
+    margin: 20px 0 80px;
+    text-align: center;
+}
+
+.cartbox_wrap{
+    width: 1200PX;
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+    overflow: hidden;
+}
+
+h2{
+    margin-left:80px;
+    font-size: 30px;
+}
+
+.cart_list, .cart_txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.return{
+    font-size: 20px;
+    display: block;
+    padding: 20px;
+    text-decoration: underline;
+    text-underline-position:under; 
+    text-align: center;     
+}
+
+.cart_box{
+    width: 1000px;
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.img_box{
+    width: 100px;
+    height: 100px;
+    background: #735f54;
+    margin-right: 20px;
+    float: left;
+}
+
+.list{
+    margin-right: 50px;
+    line-height: 100px;
+}
+
+.up_down{
+    width: 40px;
+    text-align: center;
+}
+
+.price{
+    display: block;
+    margin-right: 40px;
+    line-height: 2;
+    text-align: right;
+    width: 300px;
+    position: relative;
+    left: 780px;
+    margin-top: 30px
+}
+
+
+
+.price span{
+    display: flex;
+    justify-content: space-between;
+}
+
+.del{
+    margin-left: 10px;
+    text-decoration: underline;
+    background-color: #fff;
+    color:  #A9A9A9;
+}
+
+
+.btn{
+    display: block;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+    float: right;
+    margin-bottom: 30px;
+
+}
+
+.btn:hover{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+}

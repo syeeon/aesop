@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* main */
+
+
+.name{
+    font-family: 'Playfair Display', "Minerva-Modern", "Noto Sans KR", "Arial", "나눔고딕", "맑은 고딕", "돋움";
+}
+
+.main{
+    min-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 147px 0 80px;
+    background:  #F2F1F0  url(../../../img/common/background.jpg) no-repeat;
+}
+
+.title h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title p{
+    margin: 20px 0 80px;
+    text-align: center;
+}
+
+.wrap{
+    width: 1200px;
+    margin: 80px auto;
+    border: 1px solid #d2d1ce;
+    background-color: #fff;
+}
+
+.white_box{
+    padding: 50px;
+}
+
+.txt_box{
+    float: left;
+}
+
+.input_box{
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 120px;
+}
+
+.btn{
+    float: right;
+}
+
+.form_box input{
+    width: 250px;
+    height: 40px;
+    border: 1px solid #d2d1ce;
+    margin-top: 15px;
+    display: inline-block
+}
+
+.txt h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.txt p{
+    font-size: 15px;
+}
+
+
+.text_wrap{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.err_txt{
+    font-size: 14px;
+    color: #143259;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+}
+
+.btn{
+    display: block;
+    position: relative;
+    top: 17px;
+    width: 120px;
+    height: 100px;
+    line-height: 78px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+}
+
+.btn:hover{
+    display: block;
+    top: 17px;
+    width: 120px;
+    height: 100px;
+    line-height: 78px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+}

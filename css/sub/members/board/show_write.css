@@ -1,0 +1,212 @@
+
+.main{
+    min-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 147px 0 80px;
+    background:  #F2F1F0  url(../../../../img/common/background.jpg) no-repeat;
+}
+
+.content1 h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content1 p{
+    margin: 20px 0 80px;
+    text-align: center;
+}
+
+.lnb{
+    text-align: center;
+}
+
+.tit_btn{
+    width: 150px;
+    line-height: 3;
+    border: 1px solid #ddd;
+    color: #868686;
+}
+
+.tit2{
+    background: #000;
+}
+.tit1:hover{
+    color: #000
+}
+
+/* correct */
+
+.write_wrap, .btm_wrap{
+    width: 1200px;
+    background-color: #fff;
+    margin: 80px auto;
+    border: 1px solid #ddd
+}
+
+.write_box, .btm_box{
+    width: 1100px;
+    margin: auto;
+    padding: 40px ;
+}
+
+.btn_con{
+    width: 70%
+}
+
+.btn_sub{
+    width: 10%;
+}
+
+table{
+    border-collapse: collapse;
+    width : 100%;
+    text-align: center;
+}
+
+.write_box .write_title{
+    text-align: left;
+}
+
+table tr{
+    border-collapse: collapse;
+}
+
+table th{
+    font-size: 27px;
+    color: #333;
+}
+
+.td_line{
+    width: 1020px;
+    display: block;
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.td_line td{
+width: 130px;
+text-align: left;
+}
+
+.icon1::before{
+    content: "";
+    display:inline-block;
+    width: 20px;
+    height: 23px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background: url(/syeeon/img/sub/q&a/icon_id.png) no-repeat 0;
+}
+
+.icon2::before{
+    content: "";
+    display:inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background: url(/syeeon/img/sub/q&a/icon_time.png) no-repeat 0;
+}
+
+.icon3::before{
+    content: "";
+    display:inline-block;
+    width: 28px;
+    height: 14px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background: url(/syeeon/img/sub/q&a/icon_view.png) no-repeat 0;
+}
+
+.content{
+    display: block;
+    padding: 50px 0;
+}
+
+
+.riv{
+    width:80px;
+    height: 30px;
+    margin: 20px 0px;
+    background: #808080;
+    color: #fff;
+}
+
+.del{
+    width:80px;
+    height: 30px;
+    margin: 20px 10px;
+    background: #808080;
+    color: #fff;
+}
+
+.btn_right{
+    display: flex;
+    justify-content: right;
+    margin: 20px 0 20px;
+}
+
+hr{
+    border: 1px solid #ddd;
+}
+
+.btm_title{
+    border-top: 1px solid #ddd;
+    }
+
+.btm_val{
+    width: 1020px;
+    justify-content:space-around;
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+
+/* content2 */
+
+.btn_1{
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+    float: left;
+    margin-right: 20px;
+}
+
+.btn_1:hover{
+    display: block;
+    height: 50px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+}
+
+.btn_2{
+    display: block;
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+    float: left;
+}
+
+.btn_2:hover{
+    display: block;
+    height: 50px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+}
+
+.btn_box{
+    position: relative;
+    left : 50%;
+    transform: translate(-50%);
+}

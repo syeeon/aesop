@@ -1,0 +1,36 @@
+** 테이블 설계 **
+
+인덱스    | idx        | int             | Ai, PK 
+카테고리  | cate       | varchar(15)     | nn
+제목      | ask        | varchar(100)    | nn
+내용      | answer     | text            | nn 
+작성자    | writer     | varchar(15)     | nn 
+작성일    | w_date     | date            | nn  
+조회수    | cnt        | int             | default 0
+
+//쿼리 작성
+
+create table notice(
+    idx int auto_increment primary key,
+    cate varchar(15) not null,
+    ask varchar(100) not null,
+    answer text not null,
+    writer varchar(15) not null,
+    w_date date not null,
+    cnt int default 0
+);
+
+insert into notice(idx, cate, ask, answer, writer, w_date) values(1, '배송문의', '배송지 변경은 가능한가요?', '출고 전에는 AESOP 고객센터 1800-1987 로 전화주시면 확인 후 변경해 드리며,출고완료된 후에는 배송지 변경이 어려우니 이점 참고하시기 바랍니다.', 'admin', '20221123');
+
+insert into notice(idx, cate, ask, answer, writer, w_date) values(2, '배송문의', '오배송 또는 상품이 파손되었어요!', '오배송으로 불편을 끼쳐 드려 죄송합니다. AESOP 홈페이지 CS CENTER Q&A 게시판 또는 Huxley 고객센터 Tel : 1800-1987 연락 주시면 확인 후 신속하게 처리해드리겠습니다.', 'admin', '20221123');
+
+insert into notice(idx, cate, ask, answer, writer, w_date) values(3, '회원정보', '아이디와 비밀번호가 기억나지 않아요. 어떻게 해야 하나요?', '로그인 페이지의 아이디/비밀번호 찾기에서 조회하실 수 있습니다.
+회원가입 시 입력하신 이메일로 보내드립니다.', 'admin', '20221123');
+
+insert into notice(idx, cate, ask, answer, writer, w_date) values(4, '회원정보', '회원 아이디는 변경할 수 있나요?', '회원 ID는 수정이 불가능합니다.', 'admin', '20221123');
+
+
+insert into notice(idx, cate, ask, answer, writer, w_date) values(5, '회원정보', '회원으로 가입하면 어떤 혜택이 있나요?', '제품 구매 시마다 현금처럼 사용 가능한 적립금을 드립니다.
+구매 사은품 등 헉슬리가 제공하는 사은품 증정과 이벤트 참여의 혜택을 받으실 수 있습니다.', 'admin', '20221123');
+
+

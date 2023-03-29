@@ -1,0 +1,62 @@
+** 테이블 설계 **
+
+인덱스    | idx        | int             | Ai, PK 
+이름      | u_name     | varchar(20)     | nn
+아이디    | u_id       | varchar(12)     | nn
+비밀번호  | pwd        | varchar(16)     | nn 
+연락처    | mobile     | varchar(15)     | nn 
+우편번호  | ps_code    | char(5)         | nn  
+기본주소  | addr_b     | varchar(100)    | nn
+상세주소  | addr_d     | varchar(100)    | nn
+생년월일  | birth      | date            | nn
+가입일    | join_date  | int             | default 0
+
+
+//쿼리 작성
+
+create table members(
+idx int auto_increment primary key,
+u_name varchar(20) not null,
+u_id varchar(12) not null,
+pwd varchar(16) not null,
+mobile varchar(15) not null,
+ps_code char(5) not null,
+addr_b varchar(100) not null,
+addr_d varchar(100) not null,
+email varchar(50) not null,
+birth date not null,
+join_date date 
+);
+
+// 관리자 데이터 생성
+insert into members(idx, u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values(1,'관리자', 'admin', 'd12th8wjd!', '01010041004', '12345', '서울시 강남구', '푸르지오 아파트 104동', 'love@naver.com', '1999-04-20', '20000101');
+
+insert into members(idx, u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values(2,'이짱구', 'wkdrn', 'd12th8wjd!', '01022223333', '12345', '서울시 강남구', '푸르지오 아파트 104동', 'love@naver.com', '2000-04-21', '20221123');
+
+insert into members(idx, u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values(3,'이승연', 'glsy1150', 'd12th8wjd!', '01010041004', '12345', '서울시 강남구', '푸르지오 아파트 104동', 'love@naver.com', '1999-04-20', '20221123');
+
+insert into members(idx, u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values(4,'신짱아', 'wkddk', 'd12th8wjd!', '01088885656', '12345', '서울시 강남구', '푸르지오 아파트 104동', 'love@naver.com', '1999-04-20', '20221123');
+
+
+
+
+insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('김짜장', 'wkddk', 'd12th8wjd!', '01088885656', '12345', '서울시 강남구', '푸르지오 아파트 104동', 'wkwkd@naver.com', '1999-04-20', '20221123');
+
+insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('김카레', 'zkfp333', 'd12th8wjd!', '01088885656', '12345', '서울시 강남구', '샛별 아파트 104동', 'lzkfpe@naver.com', '1999-04-20', '20221123');
+
+insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('김민아', 'alsdk_als', 'd12th8wjd!', '01088885656', '12345', '서울시 강남구', '현대모비스 105동', 'alsdk@naver.com', '1999-04-20', '20221123');
+
+insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('김희나', 'gmlsk1_22', 'd12th8wjd!', '01088885656', '12345', '경기도 광주시', '푸르지오 아파트 104동', 'gmlsk@naver.com', '1999-04-20', '20221123');
+
+insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('이청아', 'cjddk66', 'd12th8wjd!', '01088885656', '12345', '성남시 분당구', '푸르지오 아파트 104동', 'cjddk@naver.com', '1999-04-20', '20221123');
+
+
+insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('박세리', 'wkddk', 'd12th8wjd!', '01088885656', '12345', '부산 해운', '푸르지오 아파트 104동', 'wkwkd@naver.com', '1999-04-20', '20221123');
+
+insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('최이든', 'dlems_love', 'd12th8wjd!', '01088885656', '12345', '서울시 강남구', '샛별 아파트 104동', 'lzkfpe@naver.com', '1999-04-20', '20221123');
+
+insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('이효숙', 'gytnrld', 'd12th8wjd!', '01088885656', '12345', '경기도 광주시', '현대모비스 105동', 'alsdk@naver.com', '1999-04-20', '20221123');
+
+insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('최건춘', 'rjscnsl77', 'd12th8wjd!', '01088885656', '12345', '경기도 광주시', '푸르지오 아파트 104동', 'gmlsk@naver.com', '1999-04-20', '20221123');
+
+insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('박이나', 'dlskqkr1', 'd12th8wjd!', '01088885656', '12345', '성남시 분당구', '푸르지오 아파트 104동', 'cjddk@naver.com', '1999-04-20', '20221123');

@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*, *::after, *::before {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    font-size: 18px;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Minion Var¬oiable Concept", "Minerva-Modern", "Noto Sans KR", "Arial", "나눔고딕", "맑은 고딕", "돋움"; */
+    font-family: "Cinzel", "Minerva-Modern", "Noto Sans KR", "Arial", "나눔고딕", "맑은 고딕", "돋움";
+    color: #333333;
+    background-color: #fffef2;
+}
+
+ul, li {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+input,textarea{
+    outline: none;
+    padding: 10px;
+    font-family: inherit;
+}
+
+button{
+    font-family: inherit;
+}
+
+address {
+    font-style: normal
+}
+
+/* hide */
+
+.blind {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px
+}
+
+/* img */
+.img_box img {
+    width: 100%;
+}
+
+.img_box.h img {
+    height: 100%;
+    width: auto;
+}
+
+.v img{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.n5_h img{
+    margin-top: 110px;
+}
+
+.n4_h img{
+    margin-top: 40px;
+}
+
+
+
+/* ir */
+/* logo */
+
+.header{
+        height: 67px; 
+        border: 1px solid #ffe9e1;
+        background-color: #ffe9e1;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+    
+    }
+
+.nav_bg{
+    content: "";
+    display: none;
+    background-color: #ffe9e1;
+    /* background-image: linear-gradient(to bottom, #ffe9e1, #fff) ; */
+    width: 100%;
+    height: 200px;
+}
+
+.header_wrap{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+    
+.logo{
+        width:144px; 
+        height: 47px;
+        margin:10px auto;}
+
+.logo a{
+        width:144px; 
+        height: 47px;
+        object-fit:scale-down;
+        display: block;
+        background-position: center;
+        background-size: cover;
+        background: url(../img/common/logo.png) no-repeat;
+        text-indent:-9999px;
+}
+
+
+/* gnb */
+
+.gnb{
+    height: 69px;
+    float: left;
+    margin-top: -68px;
+}
+
+
+.gnb>ul>li{
+    float: left;
+    margin: 0 10px;
+}
+
+.main{
+    padding-top: 67px;
+}
+
+
+.menu > a {
+    display: block;
+    width: 93px;
+    text-align: center;
+    line-height: 69px;
+    font-weight:500;
+}
+
+.two_dep{
+    height: 69px;
+    line-height: 30px;
+    color: #333333;
+    display: none;
+    position: absolute;
+}
+
+
+/* top menu */
+
+
+.top_menu{
+    height: 69px;
+    float: right;
+    margin-top: -68px;
+}
+
+.top_menu>ul>li{
+    float:left;
+    margin: 0 10px;
+}
+
+
+.n1_input{
+    width: 94px;
+    height: 70px;
+    line-height: 70px;
+    background-color: transparent;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 80px;
+}
+
+.customer_service{
+    float: left;
+}
+
+.customer_service>h3{
+    color: #143259;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.customer_service>ul>li{
+    font-size: 23px;
+}
+
+.number::before{
+    content: url(../img/common/ft_btn_nu.png);
+    margin-right: 10px;
+}
+
+.time::before{
+    content: url(../img/common/ft_btn_ti.png);
+    margin-right: 10px;
+}
+
+.closed_day::before{
+    content: url(../img/common/ft_dtn_da.png);
+    margin-right: 10px;
+}
+
+.footer_wrap dd{
+    font-size:30px;
+}
+
+.footer_wrap{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.read,.contact{
+    margin-right: 50px;
+}
+
+.bottom1, .bottom2{
+    line-height: 2;
+}
+
+/* term */
+
+.term_container{
+    display: flex;
+    margin:0 0 26px;
+}
+
+.box1:after{
+    content:"｜";
+    margin-left: px;
+    box-sizing: border-box;
+}
+
+
+
+.bottom1{
+    display: flex;
+}
+
+
+.bottom2{
+    display: flex;
+}
+
+.line:after{
+    content:"｜";
+    margin-left: px;
+    box-sizing: border-box;
+}
+
+
+/* 슬라이드 */
+
+/* arrow */
+
+
+
+/* underline-hover-effect */
+
+  
+  .underline-hover-effect {
+    display: inline-block;
+    padding-bottom: 1px; 
+    position: relative;
+  }
+  
+  .underline-hover-effect::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 0;
+    height: 1px;
+    background-color: #333;
+    transition: width 0.35s ease-out;
+  }
+  .underline-hover-effect:hover::before {
+    width: 100%;
+  }
+
+.hover-effect {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .hover-effect {
+    display: inline-block;
+    padding-bottom: 1px; /* defines the space between text and underline */
+    position: relative;
+  }
+  
+  .hover-effect::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 0;
+    height: 1px;
+    background-color: #333;
+    transition: width 0.35s ease-out;
+  }
+  .hover-effect:hover::before {
+    width: 100%;
+  }

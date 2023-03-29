@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+.main{
+    min-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 149px 0 80px;
+    background:  #F2F1F0  url(../../../../img/common/background.jpg) no-repeat;
+}
+
+.mypage, .account_box, .order_box{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.mypage h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mypage_wrap h2{
+    border-bottom:1px #ddd solid;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.mypage p{
+    margin: 20px 0 80px;
+    text-align: center;
+}
+
+.account_box p, h2{
+    font-size: 23px;
+}
+
+.account_box, .order_box{
+    width: 1200PX;
+    background: #fff;
+    padding: 40px 60px;
+    overflow: hidden;
+}
+
+.account_box p{
+    display: block;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-underline-position:under;
+}
+
+.data{
+    float: left;
+    margin-right: 100px;
+}
+.txt{
+    text-align: left;
+    display: block;
+    padding-top: 10px;
+}
+
+.link{
+    text-decoration: underline;
+    color: rgb(104, 103, 103);
+}
+
+.name{
+    font-family: 'Playfair Display', "Minerva-Modern", "Noto Sans KR", "Arial", "나눔고딕", "맑은 고딕", "돋움";
+    font-weight: 400px;
+}
+
+.logout{
+    cursor: pointer;
+}
+

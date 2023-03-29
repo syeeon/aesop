@@ -1,0 +1,113 @@
+/* main */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+.main{
+    min-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 149px 0 80px;
+    background:  #F2F1F0  url(../../../../img/common/background.jpg) no-repeat;
+}
+
+.content h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content p{
+    margin: 20px 0 80px;
+    text-align: center;
+}
+
+.correct{
+    width: 1200px;
+    background-color: #fff;
+    margin: 80px auto;
+    padding: 80px 0;
+}
+
+.input_box{
+    width: 360px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.text_wrap{
+    display: block;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.id_title{
+    padding-right: 20px;
+}
+
+.txt_box{
+    border: 1px solid #ddd;
+}
+
+
+.err_txt{
+    font-size: 14px;
+    color: #143259;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+}
+
+.name{
+    font-family: 'Playfair Display', "Minerva-Modern", "Noto Sans KR", "Arial", "나눔고딕", "맑은 고딕", "돋움";
+    font-weight: 400px;
+}
+
+/* content2 */
+
+.btn_1{
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+    float: left;
+    margin-right: 20px;
+}
+
+.btn_1:hover{
+    display: block;
+    height: 50px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+}
+
+.btn_2{
+    display: block;
+    width: 120px;
+    height: 50px;
+    font-size: 19px;
+    border:1px solid #735646;
+    background:#fff;
+    color: #735646;
+    float: left;
+    margin-right: 20px;
+}
+
+.btn_2:hover{
+    display: block;
+    height: 50px;
+    font-size: 19px;
+    border-color: #735646;
+    background: #735646;
+    color: #fff;
+}
+
+.btn_box{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+*, *::after, *::before {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    font-size: 18px;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans KR", "Arial", "나눔고딕", "맑은 고딕", "돋움";
+    font-weight: 400px;
+    color: #000;
+    background-color: #e8d4e2;
+}
+
+ ul, li {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+} 
+
+input,textarea{
+    outline: none;
+    padding: 10px;
+}
+
+address {
+    font-style: normal
+}
+
+/* hide */
+.blind {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px
+}
+
+.main{
+    min-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 147px 0 80px;
+}
+
+/* admin header */
+
+.icon {
+    font-size: 20px;
+}
+
+.cancel {
+    position: relative;
+    left: 200px;
+    height: 0;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: rgba(34, 23, 23, 0.781);
+    color: #fff;
+    font-family: 'Playfair Display', "Minerva-Modern", "Noto Sans KR", "Arial", "나눔고딕", "맑은 고딕", "돋움";
+}
+
+h1 a {
+    display: block;
+    margin: 30px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sidebar .header {
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;
+    padding: 0 20px;
+}
+
+.top_txt {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.gnb .border {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    /* padding-left: 10px; */
+    box-sizing: border-box;
+    border-top: 0.5px solid #eee;
+
+}
+
+.gnb li:hover a {
+    padding-left:  50px;
+    color: #ebb0d9;
+}
+
+.logout {
+    position: absolute;
+    bottom: 0px;
+}
