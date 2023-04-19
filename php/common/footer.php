@@ -8,11 +8,9 @@
                 <li class="closed_day">주말 및 공휴일 휴무</li>
             </ul>
         </div>
-
     <div class="bottom_menu">
         <h3 class="blind">하단 메뉴</h3>
     </div>
-    
     <div class="footer_wrap">
             <dl class="read item">
                 <dt class="hover-effect">READ</dt>

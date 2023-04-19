@@ -9,8 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../js/plug-in/slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="../css/basic.css">
     <link rel="stylesheet" type="text/css" href="../css/index.css">
-    
-    <script type="text/javascript" src="../js/common/jquery-3.6.1.min.js"></script>
+    <script src="../js/common/jquery-3.6.1.min.js"></script>
     <script src="../js/plug-in/rainyday.min.js"></script>
     <script src="../js/plug-in/slick-1.8.1/slick/slick.js"></script>
     <script src="../js/common/basic.js"></script>
@@ -26,7 +25,6 @@ include "sub/inc/session.php";
         <h1 class="logo">
             <a href="/syeeon/php/index.php">이솝</a>
         </h1>
-
         <nav class="gnb">
             <h2 class="blind">주요 메뉴</h2>
             <ul>
@@ -50,7 +48,6 @@ include "sub/inc/session.php";
                 </li>
             </ul>
         </nav>
-        
         <div class="top_menu">
             <h2 class="blind">사용자 메뉴</h2>
             <ul>

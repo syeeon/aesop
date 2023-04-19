@@ -51,19 +51,18 @@ if($e_pageNum > $total_page){
 };
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFO</title>
+    <title>F&A</title>
     <link rel="stylesheet" type="text/css" href="../../../css/admin/admin_basic.css"> 
-    <link rel="stylesheet" type="text/css" href="../../../css/admin/admin_list.css">
-    <script type="text/javascript" src="../../../js/common/jquery-3.6.1.min.js"></script>
-    <script type="text/javascript" src="../../../js/common/basic.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../css/admin/admin_notice.css">
+    <script src="../../../js/common/jquery-3.6.1.min.js"></script>
+    <script src="../js/admin_header.js"></script>
+    <script src="../js/common/admin_header.js"></script>
 </head>
 <body>
 <?php include "../inc/admin_header.php" ?>
@@ -74,6 +73,7 @@ if($e_pageNum > $total_page){
         <section class="table_wrap">
             <table class="table">
                 <caption class="blind">문의사항</caption>
+                <button type="button" class="board_write_btn" onclick="location.href='write.php'">글쓰기</button>
                 <thead>
                     <div class="title">
                         <th class="table_s">번호</th>
@@ -99,10 +99,10 @@ if($e_pageNum > $total_page){
 
                 // DB에서 데이터 가져오기
                 // pager : 글번호(게시물 번호 역순)
-            //  공식 : 전체데이터 - (현재 페이지 번호-1)*페이지당 보이는 목록 개수
+                //  공식 : 전체데이터 - (현재 페이지 번호-1)*페이지당 보이는 목록 개수
                 $i = $total - (($page - 1)* $list_num);
                 while($array = mysqli_fetch_array($send)){
-            ?>
+                ?>
                     <tr>
                         <td><?php echo $i; ?></td>
                         <td class="tb_left" onclick="location.href='show_write.php?q_idx=<?php echo $array["idx"]; ?>'"><?php echo $array["q_title"]; ?></td>
@@ -119,10 +119,6 @@ if($e_pageNum > $total_page){
                     
                 </tbody>
             </table>
-
-            <button type="button" onclick="location.href='write.php'">글쓰기</button>
-        
-
             <section class="bottom_btn">
                 <select class="btn1" name="select" id="select">
                     <option value="" selected>선택</option>
@@ -130,7 +126,6 @@ if($e_pageNum > $total_page){
                     <option value="">제목</option>
                     <option value="">내용</option>
             </select>      
-
             <form name="" action="" method="" class="btn2">
                 <fieldset>
                     <legend class="blind">검색</legend>

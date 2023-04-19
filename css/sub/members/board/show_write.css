@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 .main{
     min-width: 1200px;
     margin: 0 auto 80px;
     padding: 147px 0 80px;
+    font-family: 'Playfair Display', "Minerva-Modern", "Noto Sans KR", "Arial", "나눔고딕", "맑은 고딕", "돋움";
     background:  #F2F1F0  url(../../../../img/common/background.jpg) no-repeat;
 }
 
@@ -85,7 +87,7 @@ table th{
 }
 
 .td_line td{
-width: 130px;
+width: 200px;
 text-align: left;
 }
 

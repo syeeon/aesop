@@ -7,9 +7,9 @@
     <title>로그인</title>
     <link rel="stylesheet" type="text/css" href="../../../../css/basic.css"> 
     <link rel="stylesheet" type="text/css" href="../../../../css/sub/login/login.css">
-    <script type="text/javascript" src="../../../../js/common/jquery-3.6.1.min.js"></script>
-    <script type="text/javascript" src="../../../../js/common/basic.js"></script>
-    <script type="text/javascript" src="../../../../js/sub/login.js"></script>
+    <script src="../../../../js/common/jquery-3.6.1.min.js"></script>
+    <script src="../../../../js/common/basic.js"></script>
+    <script src="../../../../js/sub/login.js"></script>
 </head>
 <body>
     <?php include "../../../common/header.php" ?>
@@ -18,7 +18,6 @@
             <h1>AESOP LOGIN</h1>
             <p>로그인 하시면 회원님의 다양한 멤버십 혜택을 누리실 수 있습니다.</p>
         </section>
-        
         <div class="box_wrap">
            <section class="content content2">
                <h2 class="title">회원 로그인</h2>
@@ -44,7 +43,6 @@
                             <label class="box"><input type="checkbox">보안접속</label>
                             <label class="box"><input type="checkbox">아이디 저장</label>
                         </div>
-                        
                         <p class="blind">외부 경로 로그인</p>
                         <div class="outside_wrap">
                             <div class="outside_box">

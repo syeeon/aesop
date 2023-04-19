@@ -9,11 +9,11 @@ include "../inc/login_check.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFO</title>
-    <link rel="stylesheet" type="text/css" href="../../../css/basic.css"> 
+    <title>NOTICE</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/admin/admin_basic.css"> 
     <link rel="stylesheet" type="text/css" href="../../../css/sub/members/board/write.css">
     <script type="text/javascript" src="../../../js/common/jquery-3.6.1.min.js"></script>
-    <script type="text/javascript" src="../../../js/common/basic.js"></script>
+    <script src="../js/admin_header.js"></script>
     <script type="text/javascript" src="../../../js/sub/notice.js"></script>
 
 </head>
@@ -38,7 +38,6 @@ include "../inc/login_check.php";
                             <span>작성자</span>
                             <?php echo $login_id;  ?>
                         </div>
-
                         <div class="input_box">
                             <label for="cate">카테고리</label>
                         <select name="cate" id="cate" class="cate" onchange="sel_cate()">
@@ -51,8 +50,6 @@ include "../inc/login_check.php";
                             <option value="쿠폰적립금">쿠폰적립금</option>
                         </select>
                         </div>
-
-
                         <div class="input_box">
                             <label for="ask" class="c_title">ASK</label>
                             <input type="text" id="ask" name="ask" class="txt_box">
@@ -61,7 +58,6 @@ include "../inc/login_check.php";
                             <label for="answer" class="text_title">ANSWER</label>
                             <textarea id="answer" name="answer" class="u_content"></textarea>
                         </div>
-
                         <div class="btn_right">
                             <br><button class="btn btn_1" type="submit">글 작성</button>
                             <button class="btn btn_2" type="button" onclick="location.href='notice.php'">목록보기</button>

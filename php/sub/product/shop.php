@@ -28,7 +28,6 @@
                 </a>
                 <button type="button" class="cart_btn">Add to cart</button>
             </div>
-
             <div class="prod">
                 <a href="#">
                     <div class="img_box">
@@ -42,7 +41,6 @@
                 </a>
                 <button type="button" class="cart_btn">Add to cart</button>
             </div>
-
             <div class="prod">
                 <a href="">
                     <div class="img_box">
@@ -56,7 +54,6 @@
                 </a>
                 <button type="button" class="cart_btn">Add to cart</button>
             </div>
-
             <div class="prod">
                 <a href="">
                     <div class="img_box">
@@ -70,7 +67,6 @@
                 </a>
                 <button type="button" class="cart_btn">Add to cart</button>
             </div>
-            
             <div class="prod">
                 <a href="">
                     <div class="img_box">
@@ -84,7 +80,6 @@
                 </a>
                 <button type="button" class="cart_btn">Add to cart</button>
             </div>
-
             <div class="prod">
                 <a href="">
                     <div class="img_box">
@@ -98,7 +93,6 @@
                 </a>
                  <button type="button" class="cart_btn">Add to cart</button>
             </div>
-
             <div class="prod">
                 <a href="">
                     <div class="img_box">
@@ -112,7 +106,6 @@
                 </a>
                 <button type="button" class="cart_btn">Add to cart</button>
             </div>
-
             <div class="prod">
                 <a href="">
                     <div class="img_box">
@@ -126,7 +119,6 @@
                 </a>
                 <button type="button" class="cart_btn">Add to cart</button>
             </div>
-
             <div class="prod">
                 <a href="">
                     <div class="img_box">
@@ -140,7 +132,6 @@
                 </a>
                 <button type="button" class="cart_btn">Add to cart</button>
             </div>
-            
             <div class="prod">
                 <a href="">
                     <div class="img_box">
@@ -154,7 +145,6 @@
                 </a>
                 <button type="button" class="cart_btn">Add to cart</button>
             </div>
-
             <div class="prod">
                 <a href="">
                     <div class="img_box">
@@ -168,7 +158,6 @@
                 </a>
                 <button type="button" class="cart_btn">Add to cart</button>
             </div>
-
             <div class="prod">
                 <a href="">
                     <div class="img_box">
@@ -192,10 +181,8 @@
                 <button type="button" class="close" onclick="window.close(); ">닫기</button>
             </div>
         </div>
-
     </main>
     <script>
-
     </script>
     <?php include "../../common/footer.php" ?>
 </body>

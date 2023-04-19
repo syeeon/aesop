@@ -3,6 +3,7 @@
     min-width: 1200px;
     margin: 0 auto 80px;
     padding: 147px 0 80px;
+    font-size: 12px;
 }
 
 .top_box h1{
@@ -75,13 +76,16 @@
 }
 
 th{
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
     padding: 15px 0px;
 }
 
-.table tr td{
+.table_wrap > .table th {
+    font-size: 12px;
+}
+
+.table tr td, .table a{
     cursor: pointer;
+    font-size: 12px;
 }
 
 .table tr, td{
@@ -151,5 +155,8 @@ th{
     background:#fff;
     color: #735646;
 }
+
+
+
 
 

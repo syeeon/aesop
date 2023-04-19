@@ -24,13 +24,12 @@ $array = mysqli_fetch_array($send);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFO</title>
+    <title>F&A</title>
     <link rel="stylesheet" type="text/css" href="../../../../css/basic.css"> 
     <link rel="stylesheet" type="text/css" href="../../../../css/sub/members/board/write.css">
-    <script type="text/javascript" src="../../../../js/common/jquery-3.6.1.min.js"></script>
-    <script type="text/javascript" src="../../../../js/common/basic.js"></script>
-    <script type="text/javascript" src="../../../../js/sub/write.js"></script>
-
+    <script src="../../../../js/common/jquery-3.6.1.min.js"></script>
+    <script src="../../../../js/common/basic.js"></script>
+    <script src="../../../../js/sub/write.js"></script>
 </head>
 <body>
     <?php include "../../../common/header.php" ?>
@@ -55,8 +54,7 @@ $array = mysqli_fetch_array($send);
                         </div>
                         <div class="input_box">
                             <label for="u_pwd" class="c_title">비밀번호</label>
-                            <input type="password" id="u_pwd" name="q_pwd" class="txt_box">
-                            <br><span id="err_pwd"  class="err_txt"></span>
+                            <span class="name"><?php echo $login_pwd; ?></span>
                         </div>
                         <div class="input_box">
                             <label for="u_title" class="c_title">제목</label>

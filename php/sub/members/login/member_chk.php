@@ -13,7 +13,7 @@ $array = mysqli_fetch_array($send);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>게시물 수정</title>
+    <title>정보 수정</title>
     <link rel="stylesheet" type="text/css" href="../../../../css/basic.css"> 
     <link rel="stylesheet" type="text/css" href="../../../../css/sub/login/member_chk.css">
     <script src="../../../../js/common/jquery-3.6.1.min.js"></script>
@@ -38,7 +38,6 @@ $array = mysqli_fetch_array($send);
             <h1>PASSWORD CHECK</h1>
             <p>비밀번호는 타인에게 노출되지 않도록 주의해주세요.</p>
         </section>
-
         <div class="correct">
             <form name="formCheck" onsubmit="return formCheck()" action="member_edit.php" method="post">
                 <fieldset>

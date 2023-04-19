@@ -37,7 +37,6 @@
                                         <span id="err_name" class="err_txt"></span>
                                     </span>
                                 </div>
-                
                                 <div class="input_box">
                                     <label for="u_id" class="c_title">아이디</label>
                                     <span class="text_wrap">
@@ -47,7 +46,6 @@
                                         <br><span id="err_id" class="err2_txt"></span>
                                     </span>
                                 </div>
-
                                 <div class="input_box">
                                     <label for="pwd" class="c_title">비밀번호</label>
                                     <span class="text_wrap">
@@ -56,8 +54,6 @@
                                         <br><span id="err_pwd" class="err2_txt"></span>
                                     </span>
                                 </div>
-
-
                                 <div class="input_box">
                                     <label for="pwd_chk" class="c_title">비밀번호 확인</label>
                                     <span class="text_wrap">
@@ -65,7 +61,6 @@
                                         <span id="err_pwd_chk" class="err_txt"></span>
                                     </span>
                                 </div>
-                                
                                 <div class="input_box">
                                     <label for="mobile" class="c_title">연락처</label>
                                     <span class="text_wrap">
@@ -74,14 +69,12 @@
                                         <span id="err_mobile" class="err2_txt"></span>
                                     </span>
                                 </div>
-
                                 <div class="input_box">
                                     <label for="address1" class="c_title">우편번호</label>
                                     <input type="text"  id="sample6_postcode" name="sample6_postcode" size="8px" class="short_txt_box">
                                     <button type="button" class="chk_btn" onclick="sample6_execDaumPostcode()" value="우편번호 찾기">우편번호 검색</button>
                                     <span id="err_psCode" class="err_pscode"></span>
                                 </div>
-
                                 <div class="input_box"> 
                                     <label for="sample6_address" class="c_title">기본주소</label>
                                     <input type="text" id="sample6_address" name="sample6_address" class="txt_box">
@@ -92,11 +85,8 @@
                                     <input type="text" id="sample6_detailAddress" name="sample6_detailAddress" class="txt_box">
                                         <span id="err_addr_d" class="err_txt"></span>
                                     </span>
-                                 
                                 </div>
                                 <span id="err_addr" class="err_txt"></span>
-
-
                                 <div class="input_box">
                                     <label for="email_id" class="c_title">이메일</label>
                                     <span class="text_wrap">
@@ -111,7 +101,6 @@
                                         <span id="err_email" class="err_txt"></span>
                                     </span>
                                 </div>
-
                                 <div class="input_box">
                                     <label for="birth" class="c_title">생년월일</label>
                                     <span class="text_wrap">
@@ -127,7 +116,6 @@
                     <label class="check_title title1">
                         <input type="checkbox" id="check_all" class="check_all" name="apply" onclick="selectAll(this)">이용약관 및 개인정보수집 및 이용, 쇼핑정보 수신(선택)에 모두 동의합니다.</label>
                 </div>
-
                 <div class="box_wrap">
                     <div class="chk_box">
                         <label class="check_title"><input type="checkbox" id="check_1" class="normal" name="apply">이용 약관에 동의합니다. (필수)</label>
@@ -285,8 +273,6 @@
                     </div>
                     <p id="err_check1" class="err_apply"></p>
                 </div>
-
-      
                 <div class="box_wrap">
                     <div class="chk_box">
                         <label class="check_title"><input class="normal" type="checkbox" id="check_2" name="apply">개인정보 수집 및 이용조건에 동의합니다. (필수)</label>

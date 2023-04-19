@@ -10,8 +10,6 @@
     <script src="../../../../js/common/basic.js"></script>
     <script src="../../../../js/sub/cart_have.js"></script>
     <title>장바구니</title>
-
-
 </head>
 <body>
     <?php include "../../../common/header.php" ?>

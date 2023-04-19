@@ -1,6 +1,6 @@
 <?php 
 
-$u_id = $_GET["u_id"];
+$u_id = $_POST["u_id"];
 
 ?>
 <!DOCTYPE html>
@@ -23,6 +23,7 @@ $u_id = $_GET["u_id"];
             <p>
                 <label for="userId">입력</label>
                 <input type="text" name="userId" id="userId" value="<?php echo $u_id; ?>">
+                <div> <?php echo $u_id; ?></div>
                 <button type="submit">버튼</button>
             </p>
         </fieldset>

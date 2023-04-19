@@ -30,11 +30,11 @@ if($pwd != $login_pwd){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>회원가입</title>
+    <title>정보 수정</title>
     <link rel="stylesheet" type="text/css" href="../../../../css/basic.css">
     <link rel="stylesheet" type="text/css" href="../../../../css/sub/join/join.css">
-    <script type="text/javascript" src="../../../../js/common/jquery-3.6.1.min.js"></>
-    <script type="text/javascript" src="../../../../js/common/basic.js"></script>
+    <script src="../../../../js/common/jquery-3.6.1.min.js"></>
+    <script src="../../../../js/common/basic.js"></script>
     <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
     <script src="../../../../js/sub/member_edit.js"></script>
 </head>
@@ -55,12 +55,10 @@ if($pwd != $login_pwd){
                                     <label for="u_name" class="c_title">이름</label>
                                      <span><?php echo $array["u_name"]; ?></span>
                                 </div>
-                
                                 <div class="input_box">
                                     <label for="u_id" class="c_title">아이디</label>
                                     <span class="name"><?php echo $array["u_id"]; ?></span>
                                 </div>
-
                                 <div class="input_box">
                                     <label for="pwd" class="c_title">비밀번호</label>
                                     <span class="text_wrap">
@@ -69,8 +67,6 @@ if($pwd != $login_pwd){
                                         <span id="err_pwd" class="err2_txt"></span>
                                     </span>
                                 </div>
-
-
                                 <div class="input_box">
                                     <label for="pwd_chk" class="c_title">비밀번호 확인</label>
                                     <span class="text_wrap">
@@ -78,7 +74,6 @@ if($pwd != $login_pwd){
                                         <span id="err_pwd_chk" class="err_txt"></span>
                                     </span>
                                 </div>
-                                
                                 <div class="input_box">
                                     <label for="mobile" class="c_title">연락처</label>
                                     <span class="text_wrap">
@@ -87,13 +82,11 @@ if($pwd != $login_pwd){
                                         <span id="err_mobile" class="err2_txt"></span>
                                     </span>
                                 </div>
-
                                 <div class="input_box">
                                     <label for="address1" class="c_title">우편번호</label>
                                     <input type="text"  id="sample6_postcode" name="sample6_postcode" size="8px" class="short_txt_box"  value="<?php echo $array["ps_code"] ?>">
                                     <button type="button" class="chk_btn" onclick="sample6_execDaumPostcode()" value="우편번호 찾기">우편번호 검색</button>
                                 </div>
-
                                 <div class="input_box"> 
                                     <label for="sample6_address" class="c_title">기본주소</label>
                                     <input type="text" id="sample6_address" name="sample6_address" class="txt_box" value="<?php echo $array["addr_b"] ?>">
@@ -127,7 +120,6 @@ if($pwd != $login_pwd){
                                     <label for="birth" class="c_title">생년월일</label>
                                     <input type="text" id="birth" name="birth" class="txt_box" value="<?php echo $array["birth"] ?>">
             </section>
-           
                 <div class="button_wrop">
                     <button class="accept" type="submit">확인</button>
                     <button class="cancel" type="reset" onclick="location.href='login_ok.php'">취소</button>

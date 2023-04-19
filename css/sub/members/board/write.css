@@ -7,6 +7,7 @@
     min-width: 1200px;
     margin: 0 auto 80px;
     padding: 147px 0 80px;
+    font-family: 'Playfair Display', "Minerva-Modern", "Noto Sans KR", "Arial", "나눔고딕", "맑은 고딕", "돋움";
     background:  #F2F1F0  url(../../../../img/common/background.jpg) no-repeat;
 }
 
@@ -104,11 +105,13 @@ hr {
     display: inline-block;
     vertical-align: middle;
     border : 1px solid #ddd;
+    width: 260px;
+    height: 43px;
 }
 
 input[type=file]{
     position: absolute;
-    width: 0;
+    width: 260px;
     height: 0;
     padding: 0;
     overflow: hidden;

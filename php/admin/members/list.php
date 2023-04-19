@@ -63,11 +63,11 @@ if($e_pageNum > $total_page){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFO</title>
+    <title>회원 관리</title>
     <link rel="stylesheet" type="text/css" href="../../../css/admin/admin_basic.css"> 
-    <link rel="stylesheet" type="text/css" href="../../../css/admin/admin_notice.css">
-    <script type="text/javascript" src="../../../js/common/jquery-3.6.1.min.js"></script>
-    <script type="text/javascript" src="../../../js/common/basic.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../css/admin/admin_list.css">
+    <script src="../../../js/common/jquery-3.6.1.min.js"></script>
+    <script src="../js/admin_header.js"></script>
 
     <script>
     function member_del(){
@@ -82,6 +82,9 @@ if($e_pageNum > $total_page){
 <body>
 <?php include "../inc/admin_header.php" ?>
     <main class="main">
+        <section class="top_box">
+            <h1>회원관리</h1>
+        </section>
         <section class="content1">
         <div class="table_wrap">
             <span>TOTAL<?php echo $total; ?></span>
@@ -97,8 +100,6 @@ if($e_pageNum > $total_page){
                     <th>가입일</th>
                     <th>관리</th>
                 </tr>
-                   
-
         <?php
             // paging : 해당 페이지의 글 시작 번호 = (현재 페이지 번호 - 1) * 페이지 당 보여질 목록 수
             $start = ($page - 1) * $list_num;
@@ -119,7 +120,7 @@ if($e_pageNum > $total_page){
             while($array = mysqli_fetch_array($send)){
         ?>
 
-                    <tr class="">
+                    <tr>
                         <td><?php echo $i; ?></td>
                         <td><?php echo $array["u_name"]; ?></td>
                         <td><?php echo $array["u_id"]; ?></td>
@@ -132,7 +133,9 @@ if($e_pageNum > $total_page){
                         <td>
                             <a href="member_edit.php?m_idx=<?php echo $array["idx"]; ?>">수정</a>
                         </td>
-                        <td><a onclick="member_del()" href="member_del.php?m_idx=<?php echo $array["idx"]; ?>">삭제</a></td>
+                        <td>
+                            <a onclick="member_del()" href="member_del.php?m_idx=<?php echo $array["idx"]; ?>">삭제</a>
+                        </td>
                     </tr>
                     <?php
                             $i++; 

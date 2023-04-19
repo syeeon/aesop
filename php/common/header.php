@@ -7,7 +7,6 @@ include "../../inc/session.php";
         <h1 class="logo">
             <a href="/syeeon/php/index.php">이솝</a>
         </h1>
-
         <nav class="gnb">
             <h2 class="blind">주요 메뉴</h2>
             <ul>
@@ -31,7 +30,6 @@ include "../../inc/session.php";
                 </li>
             </ul>
         </nav>
-        
         <div class="top_menu">
             <h2 class="blind">사용자 메뉴</h2>
             <ul>

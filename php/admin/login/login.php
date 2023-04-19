@@ -7,16 +7,15 @@
     <title>로그인</title>
     <link rel="stylesheet" type="text/css" href="../../../css/admin/admin_basic.css"> 
     <link rel="stylesheet" type="text/css" href="../../../css/admin/admin_login.css">
-    <script type="text/javascript" src="../../../js/common/jquery-3.6.1.min.js"></script>
-    <script type="text/javascript" src="../../../js/common/basic.js"></script>
-    <script type="text/javascript" src="../../../js/sub/login.js"></script>
+    <script src="../../../js/common/jquery-3.6.1.min.js"></script>
+    <script src="../../../js/common/basic.js"></script>
+    <script src="../../../js/sub/login.js"></script>
 </head>
 <body>
-    <main id="main" class="main">
+    <main id="main" class="admin_login">
         <section class="top_txt">
             <h1>AESOP ADMIN</h1>
         </section>
-        
         <div class="box_wrap">
            <section class="content content2">
                <h2 class="title">관리자 로그인</h2>

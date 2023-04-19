@@ -50,19 +50,17 @@ if($e_pageNum > $total_page){
 };
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFO</title>
+    <title>F&A</title>
     <link rel="stylesheet" type="text/css" href="../../../../css/basic.css"> 
     <link rel="stylesheet" type="text/css" href="../../../../css/sub/members/board/list.css">
-    <script type="text/javascript" src="../../../../js/common/jquery-3.6.1.min.js"></script>
-    <script type="text/javascript" src="../../../../js/common/basic.js"></script>
+    <script src="../../../../js/common/jquery-3.6.1.min.js"></script>
+    <script src="../../../../js/common/basic.js"></script>
 </head>
 <body>
     <?php include "../../../common/header.php" ?>
@@ -109,7 +107,7 @@ if($e_pageNum > $total_page){
                 ?>
                     <tr>
                         <td><?php echo $i; ?></td>
-                        <td class="tb_left" onclick="location.href='member_chk.php?q_idx=<?php echo $array["idx"]; ?>'"><?php echo $array["q_title"]; ?></td>
+                        <td class="tb_left name" onclick="location.href='member_chk.php?q_idx=<?php echo $array["idx"]; ?>'"><?php echo $array["q_title"]; ?></td>
                         <td class="name"><?php echo $array["writer"]; ?></td>
                         <td><?php echo $array["q_date"]; ?></td>
                         <td><?php echo $array["done"]; ?></td>

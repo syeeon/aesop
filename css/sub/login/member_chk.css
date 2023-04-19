@@ -6,7 +6,7 @@
     min-width: 1200px;
     margin: 0 auto 80px;
     padding: 149px 0 80px;
-    background:  #F2F1F0  url(../../../../img/common/background.jpg) no-repeat;
+    background:  #F2F1F0 url(../../../../img/common/background.jpg) no-repeat;
 }
 
 .content h1{
@@ -45,16 +45,15 @@
 
 .txt_box{
     border: 1px solid #ddd;
+    position: relative;
 }
-
 
 .err_txt{
     font-size: 14px;
     color: #143259;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transform: translateY(100%);
+    position: relative;
+    left: 80px;
+    display: block;
 }
 
 .name{

@@ -27,17 +27,15 @@ $array = mysqli_fetch_array($send);
     <link rel="stylesheet" type="text/css" href="../../../css/admin_basic.css">
     <link rel="stylesheet" type="text/css" href="../../../css/sub/join/join.css">
     <script type="text/javascript" src="../../../js/common/jquery-3.6.1.min.js"></script>
-    <script type="text/javascript" src="../../../js/common/basic.js"></script>
+    <script src="../js/admin_header.js"></script>
     <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
     <script type="text/javascript" src="../../../js/sub/member_edit.js"></script>
-
     <script>
     function member_del(){
         var del = confirm("탈퇴처리 하시겠습니까?");
         if(del == true){
             location.href = "member_del.php?m_idx=<?php echo $m_idx; ?>";
         };
-
     };
     </script>
 </head>
@@ -57,12 +55,10 @@ $array = mysqli_fetch_array($send);
                                     <label for="u_name" class="c_title">이름</label>
                                      <span><?php echo $array["u_name"]; ?></span>
                                 </div>
-                
                                 <div class="input_box">
                                     <label for="u_id" class="c_title">아이디</label>
                                     <span class="name"><?php echo $array["u_id"]; ?></span>
                                 </div>
-
                                 <div class="input_box">
                                     <label for="pwd" class="c_title">비밀번호</label>
                                     <span class="text_wrap">
@@ -71,8 +67,6 @@ $array = mysqli_fetch_array($send);
                                         <span id="err_pwd" class="err_txt"></span>
                                     </span>
                                 </div>
-
-
                                 <div class="input_box">
                                     <label for="pwd_chk" class="c_title">비밀번호 확인</label>
                                     <span class="text_wrap">
@@ -80,7 +74,6 @@ $array = mysqli_fetch_array($send);
                                         <span id="err_pwd_chk" class="err_txt"></span>
                                     </span>
                                 </div>
-                                
                                 <div class="input_box">
                                     <label for="mobile" class="c_title">연락처</label>
                                     <span class="text_wrap">
@@ -89,13 +82,11 @@ $array = mysqli_fetch_array($send);
                                         <span id="err_mobile" class="err_txt"></span>
                                     </span>
                                 </div>
-
                                 <div class="input_box">
                                     <label for="address1" class="c_title">우편번호</label>
                                     <input type="text"  id="sample6_postcode" name="ps_code" size="8px" class="short_txt_box"  value="<?php echo $array["ps_code"]; ?>">
                                     <button type="button" class="chk_btn" onclick="sample6_execDaumPostcode()" value="우편번호 찾기">우편번호 검색</button>
                                 </div>
-
                                 <div class="input_box"> 
                                     <label for="sample6_address" class="c_title">기본주소</label>
                                     <input type="text" id="sample6_address" name="addr_b" class="txt_box" value="<?php echo $array["addr_b"]; ?>">
@@ -104,7 +95,6 @@ $array = mysqli_fetch_array($send);
                                     <label for="sample6_detailAddress" class="c_title">상세주소</label>
                                     <input type="text" id="sample6_detailAddress" name="addr_d" class="txt_box" value="<?php echo $array["addr_d"]; ?>">
                                 </div>
-
                                 <?php
                                 $email = explode("@", $array["email"]);
                                  ?>
@@ -129,8 +119,6 @@ $array = mysqli_fetch_array($send);
                                     <label for="birth" class="c_title">생년월일</label>
                                     <span><?php echo $array["birth"]; ?></span>
                                 </div>
-            
-           
                 <div class="button_wrop">
                     <button class="accept" type="submit">확인</button>
                     <button class="cancel" type="reset" onclick="location.href='list.php'">취소</button>

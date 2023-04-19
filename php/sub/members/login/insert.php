@@ -56,8 +56,6 @@ if(!$num){
         alert('{$u_id}.님 안녕하세요 :)');
         location.href = 'login_ok.php';
         </script>";
-        
-        
     }; 
 };
 

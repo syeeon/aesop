@@ -28,7 +28,7 @@ $sql = "update board set cnt= $cnt where idx = $q_idx;";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFO</title>
+    <title>F&A</title>
     <link rel="stylesheet" type="text/css" href="../../../../css/basic.css">
     <link rel="stylesheet" type="text/css" href="../../../../css/sub/members/board/show_write.css">
 </head>
@@ -40,10 +40,9 @@ $sql = "update board set cnt= $cnt where idx = $q_idx;";
             <p>질문을 남겨주시면 친절하고 신속한 답변드리겠습니다.</p>
             <div class="lnb">
                 <button class="tit_btn tit1" type="button" onclick="location.href='../notice/notice.php'">NOTICE</button>
-                <button class="tit_btn tit2" type="button" onclick="location.href='list.html'">Q&A</button>
+                <button class="tit_btn tit2" type="button" onclick="location.href='list.php'">Q&A</button>
             </div>
         </section>
-
         <div class="write_wrap">
             <div class="write_box">
                 <table>
@@ -74,7 +73,6 @@ $sql = "update board set cnt= $cnt where idx = $q_idx;";
                 </div>
             </div>
         </div>
-
         <div class="btm_wrap">
             <div class="btm_box">
                 <table>

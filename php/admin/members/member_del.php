@@ -1,6 +1,5 @@
 <?php
 
-
 $m_idx = $_GET["m_idx"];
 
 include '../inc/dbcon.php';

@@ -58,7 +58,6 @@
                 <button type="button" data-role="none" class="slick-next" aria-label="next" >Next</button>
             </div>
         </section>
-        
         <section class="content content_2">
             <div class="tit_box">
                 <h2 class="best">BEST SELLER</h2>
@@ -95,7 +94,6 @@
                         <dd>자외선을 차단하는 데일리 하이드레이터</dd>
                     </dl>
                 </a>
-
                  <a class="prod n4 p_4" href="#">
                     <div class="img_box v n4_h">
                         <img src="../img/index/prod_n4.png" alt="트롤레미 아로마틱 캔들">
@@ -106,7 +104,6 @@
                         <dd>우디, 흙내음, 유향</dd>
                     </dl>
                 </a>
-
                 <a class="prod n5 p_5" href="#">
                     <div class="img_box v n5_h ">
                         <img src="../img/index/prod_n5.png" alt="비 트리플 씨 페어셜 밸런싱 젤">
@@ -117,7 +114,6 @@
                         <dd>피부 균형을 잡아주는 가벼운 하이드레이터</dd>
                     </dl>
                 </a>
-
                 <a class="prod n6 p_6" href="#">
                     <div class="img_box h v">
                         <img src="../img/index/prod_n6.png" alt="레저렉션 아로마틱 핸드 워시">
@@ -137,9 +133,6 @@
                 <span class="slider__label1 sr-only1"></span>
             </div>
         </section>
-
-
-
         <section class="content_3">
             <div class="cont brandstory">
                 <a href="#">
@@ -150,7 +143,6 @@
                     <p>브랜드 스토리</p>
                 </a>
             </div>
-
             <div class="cont gift_guide">
                 <a href="#">
                     <h2 class="title">Gift Guide</h2>
@@ -160,7 +152,6 @@
                     <p>선물 추천</p>
                 </a>
             </div>
-
             <div class="cont news">
                 <a href="#">
                     <h2 class="title">News</h2>
@@ -171,7 +162,6 @@
                 </a>
             </div>
         </section>
-
         <div id="content_4" class="content_4" onload="run()">
             <p class="blind">이솝 브랜드 소개</p>
             <div class="content_4_box">
@@ -180,7 +170,6 @@
                 <a href="#" class="more_btn">MORE</a>
             </div> 
         </div>
-
         <div class="content_5">
             <div class="content5_texbox">
                 <h2 class="store">STORE LOCATOR</h2>
@@ -210,21 +199,12 @@
                 </div>
             </div>
         </div>
-
         <section class="notice">
             <h2 class="item1"><a href="sub/members/notice/notice.php">NOTICE</a></h2>
             <p class="item2"><a href="sub/members/notice/notice.php">추석 연휴 배송 안내</a></p>
             <p class="item3">2022.08.22</p>
-
-            <!--이솝 배송지연 안내
-                게시 날짜 2022.01.17
-
-                이용약관 개정 안내 (22.05.06)
-                게시날짜 2022.08.24  -->
         </section>
     </main>
     <?php include "common/footer.php" ?>
-
 </body>
-
 </html>

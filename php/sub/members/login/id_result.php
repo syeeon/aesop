@@ -7,8 +7,8 @@
     <title>아이디/비밀번호 찾기</title>
     <link rel="stylesheet" type="text/css" href="../../../../css/basic.css"> 
     <link rel="stylesheet" type="text/css" href="../../../../css/sub/login/id_result.css">
-    <script type="text/javascript" src="../../../../js/common/jquery-3.6.1.min.js"></script>
-    <script type="text/javascript" src="../../../../js/common/basic.js"></script>
+    <script src="../../../../js/common/jquery-3.6.1.min.js"></script>
+    <script src="../../../../js/common/basic.js"></script>
 </head>
 <body>
     <?php include "../../../common/header.php" ?>

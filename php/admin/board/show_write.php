@@ -28,9 +28,10 @@ $sql = "update board set cnt= $cnt where idx = $q_idx;";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFO</title>
+    <title>F&A</title>
     <link rel="stylesheet" type="text/css" href="../../../css/admin/admin_basic.css"> 
     <link rel="stylesheet" type="text/css" href="../../../css/sub/members/board/show_write.css">
+    <script src="../js/admin_header.js"></script>
 </head>
 <body>
 <?php include "../inc/admin_header.php" ?>

@@ -37,9 +37,6 @@ insert into members(idx, u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, ema
 
 insert into members(idx, u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values(4,'신짱아', 'wkddk', 'd12th8wjd!', '01088885656', '12345', '서울시 강남구', '푸르지오 아파트 104동', 'love@naver.com', '1999-04-20', '20221123');
 
-
-
-
 insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('김짜장', 'wkddk', 'd12th8wjd!', '01088885656', '12345', '서울시 강남구', '푸르지오 아파트 104동', 'wkwkd@naver.com', '1999-04-20', '20221123');
 
 insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('김카레', 'zkfp333', 'd12th8wjd!', '01088885656', '12345', '서울시 강남구', '샛별 아파트 104동', 'lzkfpe@naver.com', '1999-04-20', '20221123');
@@ -49,7 +46,6 @@ insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, b
 insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('김희나', 'gmlsk1_22', 'd12th8wjd!', '01088885656', '12345', '경기도 광주시', '푸르지오 아파트 104동', 'gmlsk@naver.com', '1999-04-20', '20221123');
 
 insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('이청아', 'cjddk66', 'd12th8wjd!', '01088885656', '12345', '성남시 분당구', '푸르지오 아파트 104동', 'cjddk@naver.com', '1999-04-20', '20221123');
-
 
 insert into members(u_name, u_id, pwd, mobile, ps_code, addr_b, addr_d, email, birth, join_date) values('박세리', 'wkddk', 'd12th8wjd!', '01088885656', '12345', '부산 해운', '푸르지오 아파트 104동', 'wkwkd@naver.com', '1999-04-20', '20221123');
 

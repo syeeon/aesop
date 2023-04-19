@@ -62,12 +62,12 @@ if($e_pageNum > $total_page){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFO</title>
+    <title>NOTICE</title>
     <link rel="stylesheet" type="text/css" href="../../../../css/basic.css"> 
     <link rel="stylesheet" type="text/css" href="../../../../css/sub/members/notice/notice.css">
-    <script type="text/javascript" src="../../../../js/common/jquery-3.6.1.min.js"></script>
-    <script type="text/javascript" src="../../../../js/common/basic.js"></script>
-    <script type="text/javascript" src="../../../../js/sub/notice.js"></script>
+    <script src="../../../../js/common/jquery-3.6.1.min.js"></script>
+    <script src="../../../../js/common/basic.js"></script>
+    <script src="../../../../js/sub/notice.js"></script>
 </head>
 <body>
 <?php include "../../../common/header.php" ?>
@@ -80,13 +80,11 @@ if($e_pageNum > $total_page){
                 <button class="tit_btn tit2" type="button" onclick="location.href='../board/list.php'">Q&A</button>
             </div>
         </section>
-
         <div class="table_wrap">
             <table class="table">
                 <th>번호</th>
                 <th class="table_cate">분류</th>
-                <th class="table_title">제목</th>
-                   
+                <th class="table_title">제목</th>  
 
         <?php
             // paging : 해당 페이지의 글 시작 번호 = (현재 페이지 번호 - 1) * 페이지 당 보여질 목록 수

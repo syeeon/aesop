@@ -67,11 +67,11 @@ if($e_pageNum > $total_page){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFO</title>
+    <title>NOTICE</title>
     <link rel="stylesheet" type="text/css" href="../../../css/admin/admin_basic.css"> 
     <link rel="stylesheet" type="text/css" href="../../../css/admin/admin_notice.css"> 
     <script src="../../../js/common/jquery-3.6.1.min.js"></script>
-    <script src="../../../js/common/basic.js"></script>
+    <script src="../js/admin_header.js"></script>
     <script src="../../../js/sub/notice.js"></script>
     <script>
         function del_notice(go_no){
@@ -95,8 +95,7 @@ if($e_pageNum > $total_page){
                 <th>분류</th>
                 <th>ASK</th>
                 <th>관리</th>
-                   
-
+                
         <?php
             // paging : 해당 페이지의 글 시작 번호 = (현재 페이지 번호 - 1) * 페이지 당 보여질 목록 수
             $start = ($page - 1) * $list_num;
@@ -135,10 +134,9 @@ if($e_pageNum > $total_page){
                     ?>            
             <p class="admin_write">
                 <span>TOTAL<?php echo $total; ?></span>
-                <span><a href="write.php">글쓰기</a></span>
+                <span class="write_btn"><a href="write.php">글쓰기</a></span>
             </p>
             </table>
-        
              <div class="bottom_btn">
                 <select class="btn1" name="select" id="select">
                     <option value="" selected>전체검색</option>
