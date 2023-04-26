@@ -12,12 +12,12 @@ $(document).ready(function(){
     })
 
   /* best seller */
-  var $slider1 = $('.cont_box');
-  var $progressBar1 = $('.progress1');
-  var $progressBarLabel1 = $( '.slider__label1' );
+  let $slider1 = $('.cont_box');
+  let $progressBar1 = $('.progress1');
+  let $progressBarLabel1 = $( '.slider__label1' );
 
   $slider1.on('beforeChange', function(event, slick, currentSlide, nextSlide) {   
-  var calc = ( (nextSlide) / (slick.slideCount-1) ) * 100;
+  let calc = ( (nextSlide) / (slick.slideCount-1) ) * 100;
       
     $progressBar1
       .css('background-size', calc + '% 100%')
@@ -37,12 +37,12 @@ $(document).ready(function(){
   });
 
 /* store location */
-var $slider = $('.store_wrap');
-var $progressBar = $('.progress');
-var $progressBarLabel = $( '.slider__label' );
+let $slider = $('.store_wrap');
+let $progressBar = $('.progress');
+let $progressBarLabel = $( '.slider__label' );
 
 $slider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {   
-  var calc = ( (nextSlide) / (slick.slideCount-1) ) * 100;
+  let calc = ( (nextSlide) / (slick.slideCount-1) ) * 100;
   
   $progressBar
     .css('background-size', calc + '% 100%')

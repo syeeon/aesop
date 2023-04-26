@@ -13,9 +13,9 @@ $(document).ready(function(){
 function cartHave(){
     window.open("../../sub/product/cart/cart_have.php", '', '');
     window.close();
-    }
+};
     
-    function goShop(){
+function goShop(){
     window.close();
-    }
+};
     

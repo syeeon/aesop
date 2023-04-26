@@ -1,22 +1,22 @@
 function editCheck(){
-    var pwd = document.getElementById("pwd")
-    var pwd_chk = document.getElementById("pwd_chk")
-    var mobile = document.getElementById("mobile")
-    var addr_b = document.getElementById("sample6_address")
-    var addr_d = document.getElementById("sample6_detailAddress")
+    let pwd = document.getElementById("pwd")
+    let pwd_chk = document.getElementById("pwd_chk")
+    let mobile = document.getElementById("mobile")
+    let addr_b = document.getElementById("sample6_address")
+    let addr_d = document.getElementById("sample6_detailAddress")
 
 
     if(!pwd.value){
-        var err = document.getElementById("err_pwd");
+        let err = document.getElementById("err_pwd");
         err.innerHTML = "\* 비밀번호를 입력하세요"
         pwd.focus();
         return false;
     }
 
-    var regExp = /^.*(?=^.{4,16}$)(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*$/;
+    let regExp = /^.*(?=^.{4,16}$)(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*$/;
     if(!regExp.test(pwd.value)){
         // console.log('xxx');
-        var err = document.getElementById('err_pwd');
+        let err = document.getElementById('err_pwd');
         err.innerHTML = "\*  소문자 + 숫자 + -,/ 허용 4~12자만 입력이 가능합니다"
         pwd.focus();
         return false;
@@ -24,14 +24,14 @@ function editCheck(){
 
 
     if(!pwd_chk.value){
-        var err = document.getElementById("err_pwd_chk");
+        let err = document.getElementById("err_pwd_chk");
         err.innerHTML = "\* 비밀번호를 입력하세요"
         pwd_chk.focus();
         return false;
     }
 
     if(pwd.value != pwd_chk.value){
-        var err = document.getElementById("err_pwd_chk");
+        let err = document.getElementById("err_pwd_chk");
         err.innerHTML = "\* 비밀번호가 일치하지 않습니다."
         pwd_chk.focus();
         return false;
@@ -39,46 +39,46 @@ function editCheck(){
 
 
     if(!mobile.value){
-        var err = document.getElementById("err_mobile");
+        let err = document.getElementById("err_mobile");
         err.innerHTML = "\* 연락처를 입력하세요"
         mobile.focus();
         return false;
     }
 
 
-    var mobileRule =  /^[0-9]+$/g;
+    let mobileRule =  /^[0-9]+$/g;
     if(!mobileRule.test(mobile.value)){
-        var err = document.getElementById("err_mobile");
+        let err = document.getElementById("err_mobile");
         err.innerHTML = "\* 숫자만 입력 가능합니다.";
         mobile.focus();
         return false;
     }
 
     if(!addr_b.value){
-        var err = document.getElementById("err_addr_b");
+        let err = document.getElementById("err_addr_b");
         err.innerHTML = "\* 우편번호를 검색하세요"
         return false;
         };
     
         if(!addr_d.value){
-        var err = document.getElementById("err_addr_d");
+        let err = document.getElementById("err_addr_d");
         err.innerHTML = "\* 상세주소를 입력하세요"
         addr_d.focus();
         return false;
         };
 
-        var email = document.getElementById("email_id")
-        var email_dns = document.getElementById("email_dns")
-        if(email_id.value===""){
-            var err = document.getElementById("err_email")
+    let email = document.getElementById("email_id");
+        let email_dns = document.getElementById("email_dns");
+        if(email.value===""){
+            let err = document.getElementById("err_email");
             err.innerHTML = "\* 이메일을 입력하세요"
             email.focus();
-            return false
+            return false;
         } if(email_dns.value===""){
-            var err = document.getElementById("err_email")
+            let err = document.getElementById("err_email");
             err.innerHTML = "\* 도메인 주소를 입력하세요"
             email_dns.focus();
-            return false
+            return false;
         };
 
 
@@ -134,22 +134,18 @@ function sample6_execDaumPostcode() {
 
     
     function change_email(){
-        var email_dns = document.getElementById("email_dns")
-        var email_sel = document.getElementById("email_sel")
+        let email_dns = document.getElementById("email_dns");
+        let email_sel = document.getElementById("email_sel");
         
-        var idx = email_sel.options.selectedIndex;
-        var val = email_sel.options[idx].value;
+        let idx = email_sel.options.selectedIndex;
+        let val = email_sel.options[idx].value;
         email_dns.value = val
     };
-        
-    
-    
-    
     
     // 정보 수정
 
     function member_del(){
-        var del_btn = confirm("정말 탈퇴하시겠습니까?");
+        let del_btn = confirm("정말 탈퇴하시겠습니까?");
         if(del_btn == true){
             location.href='member_del.php';
         };

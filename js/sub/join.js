@@ -1,19 +1,19 @@
 function formCheck(){
-    var u_name = document.getElementById("u_name");
-    var u_id = document.getElementById("u_id");
-    var pwd = document.getElementById("pwd")
-    var pwd_chk = document.getElementById("pwd_chk")
-    var mobile = document.getElementById("mobile")
-    var ps_code = document.getElementById("sample6_postcode")
-    var addr_d = document.getElementById("sample6_detailAddress")
-    var birth = document.getElementById("birth")
-    var check_1 = document.getElementById("check_1")
-    var check_2 = document.getElementById("check_2")
+    let u_name = document.getElementById("u_name");
+    let u_id = document.getElementById("u_id");
+    let pwd = document.getElementById("pwd");
+    let pwd_chk = document.getElementById("pwd_chk");
+    let mobile = document.getElementById("mobile");
+    let ps_code = document.getElementById("sample6_postcode");
+    let addr_d = document.getElementById("sample6_detailAddress");
+    let birth = document.getElementById("birth");
+    let check_1 = document.getElementById("check_1");
+    let check_2 = document.getElementById("check_2");
 
 
     
     if(!u_name.value){
-        var err = document.getElementById("err_name");
+        let err = document.getElementById("err_name");
         err.innerHTML = "\* 이름을 입력하세요"
         u_name.focus();
         return false;
@@ -21,14 +21,14 @@ function formCheck(){
 
     var nameRule = /^[가-힣a-zA-Z]+$/;
     if(!nameRule.test(u_name.value)){
-        var err = document.getElementById('err_name');
+        let err = document.getElementById('err_name');
         err.innerHTML = "\* 이름은 한글 or 영문만 입력이 가능합니다"
         u_name.focus();
         return false;
     };
 
     if(!u_id.value){
-        var err = document.getElementById("err_id");
+        let err = document.getElementById("err_id");
         err.innerHTML = "\* 아이디를 입력하세요"
         u_id.focus();
         return false;
@@ -36,7 +36,7 @@ function formCheck(){
 
     var idRule =/^[a-z0-9_-]{4,12}$/;
     if(!idRule.test(u_id.value)){
-        var err = document.getElementById('err_id');
+        let err = document.getElementById('err_id');
         err.innerHTML = "\* 소문자 + 숫자 + -,/ 허용 4~12자만 입력이 가능합니다"
         u_id.focus();
         return false;
@@ -44,16 +44,16 @@ function formCheck(){
 
 
     if(!pwd.value){
-        var err = document.getElementById("err_pwd");
+        let err = document.getElementById("err_pwd");
         err.innerHTML = "\* 비밀번호를 입력하세요"
         pwd.focus();
         return false;
     };
 
-    var regExp = /^.*(?=^.{4,16}$)(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*$/;
+    let regExp = /^.*(?=^.{4,16}$)(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*$/;
     if(!regExp.test(pwd.value)){
         // console.log('xxx');
-        var err = document.getElementById('err_pwd');
+        let err = document.getElementById('err_pwd');
         err.innerHTML = "\* 영문 + 숫자 + 특수문자를 포함하여 작성해주세요."
         pwd.focus();
         return false;
@@ -61,14 +61,14 @@ function formCheck(){
 
 
     if(!pwd_chk.value){
-        var err = document.getElementById("err_pwd_chk");
+        let err = document.getElementById("err_pwd_chk");
         err.innerHTML = "\* 비밀번호를 입력하세요"
         pwd_chk.focus();
         return false;
     };
 
     if(pwd.value != pwd_chk.value){
-        var err = document.getElementById("err_pwd_chk");
+        let err = document.getElementById("err_pwd_chk");
         err.innerHTML = "\* 비밀번호가 일치하지 않습니다."
         pwd_chk.focus();
         return false;
@@ -76,75 +76,72 @@ function formCheck(){
 
 
     if(!mobile.value){
-        var err = document.getElementById("err_mobile");
+        let err = document.getElementById("err_mobile");
         err.innerHTML = "\* 연락처를 입력하세요"
         mobile.focus();
         return false;
     };
 
-    var mobileRule =  /^[0-9]+$/g;
+    let mobileRule =  /^[0-9]+$/g;
     if(!mobileRule.test(mobile.value)){
-        var err = document.getElementById("err_mobile");
+        let err = document.getElementById("err_mobile");
         err.innerHTML = "\* 숫자만 입력 가능합니다.";
         mobile.focus();
         return false;
     };
 
     if(!ps_code.value){
-        var err = document.getElementById("err_psCode");
+        let err = document.getElementById("err_psCode");
         err.innerHTML = "\* 우편번호를 검색하세요"
         ps_code.focus();
         return false;
         };
     
-        if(!addr_d.value){
-        var err = document.getElementById("err_addr_d");
-        err.innerHTML = "\* 상세주소를 입력하세요"
-        addr_d.focus();
-        return false;
-        };
-
-
-    
-    var email = document.getElementById("email_id")
-    var email_dns = document.getElementById("email_dns")
-    if(email.value===""){
-        var err = document.getElementById("err_email")
-        err.innerHTML = "\* 이메일을 입력하세요"
-        email.focus();
-        return false
-    } if(email_dns.value===""){
-        var err = document.getElementById("err_email")
-        err.innerHTML = "\* 도메인 주소를 입력하세요"
-        email_dns.focus();
-        return false
+    if(!addr_d.value){
+    let err = document.getElementById("err_addr_d");
+    err.innerHTML = "\* 상세주소를 입력하세요"
+    addr_d.focus();
+    return false;
     };
 
+    let email = document.getElementById("email_id");
+    let email_dns = document.getElementById("email_dns");
+    if(email.value===""){
+        let err = document.getElementById("err_email");
+        err.innerHTML = "\* 이메일을 입력하세요"
+        email.focus();
+        return false;
+    } if(email_dns.value===""){
+        let err = document.getElementById("err_email");
+        err.innerHTML = "\* 도메인 주소를 입력하세요"
+        email_dns.focus();
+        return false;
+    };
 
     if(!birth.value){
-        var err = document.getElementById("err_birth");
+        let err = document.getElementById("err_birth");
         err.innerHTML = "\* 생년월일을 입력하세요"
         birth.focus();
         return false;
     };
 
-    var birthRule =  /^[0-9]+$/g;
+    let birthRule =  /^[0-9]+$/g;
     if(!birthRule.test(birth.value)){
-        var err = document.getElementById("err_birth");
+        let err = document.getElementById("err_birth");
         err.innerHTML = "\* 숫자만 입력 가능합니다.";
         birth.focus();
         return false;
     };
 
     if(!check_1.checked){
-        var err = document.getElementById("err_check1")
+        let err = document.getElementById("err_check1");
         err.innerHTML = "\* 필수약관을 읽어보시고 동의하셔야 됩니다."
         check_1.focus();
         return false;
     };
 
     if(!check_2.checked){
-        var err = document.getElementById("err_check2")
+        let err = document.getElementById("err_check2");
         err.innerHTML = "\* 필수약관을 읽어보시고 동의하셔야 됩니다."
         check_2.focus();
         return false;
@@ -201,16 +198,16 @@ function sample6_execDaumPostcode() {
 }
     
     function change_email(){
-        var email_dns = document.getElementById("email_dns")
-        var email_sel = document.getElementById("email_sel")
+        let email_dns = document.getElementById("email_dns");
+        let email_sel = document.getElementById("email_sel");
         
-        var idx = email_sel.options.selectedIndex;
-        var val = email_sel.options[idx].value;
+        let idx = email_sel.options.selectedIndex;
+        let val = email_sel.options[idx].value;
         email_dns.value = val
     };
     
     function selectAll(selectAll) {
-        var checkboxes
+        let checkboxes
         =
         document.getElementsByName('apply');
         checkboxes.forEach((checkbox) => {
@@ -218,12 +215,8 @@ function sample6_execDaumPostcode() {
         });
     };
 
-    // function idCheck(){
-    //     window.open("id_check.php?userId=<?php echo $userId; ?>","","width=600px height=300px")
-    // }
-
     function member_del(){
-        var del_btn = confirm("정말 탈퇴하시겠습니까?");
+        let del_btn = confirm("정말 탈퇴하시겠습니까?");
         if(del_btn == true){
             location.href='member_del.php';
         };

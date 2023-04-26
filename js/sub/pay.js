@@ -1,20 +1,20 @@
 function formCheck(){
-    var u_name = document.getElementById("u_name");
-    var u_id = document.getElementById("u_id");
-    var pwd = document.getElementById("pwd")
-    var pwd_chk = document.getElementById("pwd_chk")
-    var mobile = document.getElementById("mobile")
+    let u_name = document.getElementById("u_name");
+    let u_id = document.getElementById("u_id");
+    let pwd = document.getElementById("pwd");
+    let pwd_chk = document.getElementById("pwd_chk");
+    let mobile = document.getElementById("mobile");
     
     if(!u_name.value){
-        var err = document.getElementById("err_name");
+        let err = document.getElementById("err_name");
         err.innerHTML = "\* 이름을 입력하세요"
         u_name.focus();
         return false;
     }
 
-    var nameRule = /^[가-힣a-zA-Z]+$/;
+    let nameRule = /^[가-힣a-zA-Z]+$/;
     if(!nameRule.test(u_name.value)){
-        var err = document.getElementById('err_name');
+        let err = document.getElementById('err_name');
         err.innerHTML = "\* 이름은 한글 or 영문만 입력이 가능합니다"
         u_name.focus();
         return false;
@@ -22,33 +22,33 @@ function formCheck(){
 
 
     if(!mobile.value){
-        var err = document.getElementById("err_mobile");
+        let err = document.getElementById("err_mobile");
         err.innerHTML = "\* 연락처를 입력하세요"
         mobile.focus();
         return false;
     }
 
 
-    var mobileRule =  /^[0-9]+$/g;
+    let mobileRule =  /^[0-9]+$/g;
     if(!mobileRule.test(mobile.value)){
-        var err = document.getElementById("err_mobile");
+        let err = document.getElementById("err_mobile");
         err.innerHTML = "\* 숫자만 입력 가능합니다.";
         mobile.focus();
         return false;
     }
 
-    var email = document.getElementById("email_id")
-    var email_dns = document.getElementById("email_dns")
+    let email = document.getElementById("email_id");
+    let email_dns = document.getElementById("email_dns");
     if(email.value===""){
-        var err = document.getElementById("err_email")
+        let err = document.getElementById("err_email");
         err.innerHTML = "\* 이메일을 입력하세요"
         email.focus();
-        return false
+        return false;
     } if(email_dns.value===""){
-        var err = document.getElementById("err_email")
+        let err = document.getElementById("err_email");
         err.innerHTML = "\* 도메인 주소를 입력하세요"
         email_dns.focus();
-        return false
+        return false;
     };
 
 
@@ -104,11 +104,11 @@ function formCheck(){
 
 
 function change_email(){
-    var email_dns = document.getElementById("email_dns")
-    var email_sel = document.getElementById("email_sel")
+    let email_dns = document.getElementById("email_dns");
+    let email_sel = document.getElementById("email_sel");
 
-    var idx = email_sel.options.selectedIndex;
-    var val = email_sel.options[idx].value;
+    let idx = email_sel.options.selectedIndex;
+    let val = email_sel.options[idx].value;
     email_dns.value = val
 };
 
@@ -121,8 +121,6 @@ function payEnd(){
     alert("결제가 완료되었습니다 :)")
     location.href='../../index.php'
 }
-
-
 
 
 $(document).ready(function(){
