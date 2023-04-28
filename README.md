@@ -1,7 +1,8 @@
 # aesop
 
 🧑🏻‍💻 프로젝트 소개 
-Aesop은 스킨케어 웹 사이트입니다. CSS와 JavaScript를 활용하여 구매 사이트에 맞는 레이아웃 배치, 실제 웹사이트를 사용하는 느낌을 주기 위해 노력했습니다.
+Aesop은 스킨케어 웹 사이트입니다. <br />
+CSS와 JavaScript를 활용하여 구매 사이트에 맞는 레이아웃 배치, 실제 웹사이트를 사용하는 느낌을 주기 위해 노력했습니다.
 
 배포 : [http://glsy1150.dothome.co.kr/syeeon/php](http://glsy1150.dothome.co.kr/syeeon/php)
 
@@ -18,3 +19,5 @@ Aesop은 스킨케어 웹 사이트입니다. CSS와 JavaScript를 활용하여 
 ## Admin 계정
 ID : admin
 PWD : aesop1234!
+
+배포 : [http://glsy1150.dothome.co.kr/syeeon/php/admin](http://glsy1150.dothome.co.kr/syeeon/php/admin)
